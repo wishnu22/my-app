@@ -1,4 +1,20 @@
+
+.arrow{
+    font-weight: bold;
+    font-size: large;
+    padding: 10px;
+}
 .heroin{
-    width:1000px;
-    height:1000px
+    height:800px
+}
+@media only screen and (min-width:391px) and (max-width:768px){
+.heroin{
+    height:500px
+}
+}
+
+@media only screen and (min-width:0px) and (max-width:390px){
+    .heroin{
+        height:500px
+}
 }

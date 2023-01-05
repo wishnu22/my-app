@@ -44,11 +44,14 @@ a{
 #help{
     width: 8%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 10px;
     margin-top: 20px;
     margin-left: 0%;
     font-weight: bold;
+}
+#help>div{
+    flex:1
 }
 #card>div{
     display: flex;
@@ -121,6 +124,7 @@ button:hover{
         width: 15%;
         font-size: 12px;
         margin-left: 9%;
+        flex:1
     }
 }
 @media only screen and (min-width:0px) and (max-width:390px){
@@ -136,6 +140,7 @@ button:hover{
     }
     #help{
         display: none;
+        flex: 1;
     }
     #bottom{
         width: 80%;

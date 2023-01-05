@@ -6,7 +6,7 @@ function Navbar() {
         <img src={require("../../Images/menuLogo.png")} style={{width:"20px",height:"20px"}} className="mt-3"/>
         <div id="logo">
     <a href="./index.html">
-        <img src={require("../../Images/zelgryLogo.jpeg")} alt="zaralogo"/>
+        <img src={require("../../Images/zelgryLogo.jpeg")} alt="zelgryLogo"/>
         </a>
     </div>
     
