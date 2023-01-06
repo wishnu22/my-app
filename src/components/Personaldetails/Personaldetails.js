@@ -97,7 +97,7 @@ function Personaldetails() {
 
           <div id="checklast">
             <div id="fb">
-              <input id="checkmark" type="checkbox" />I WISH TO RECEIVE ZARA
+              <input id="checkmark" type="checkbox" />I WISH TO RECEIVE ZELGRY
               NEWS ON MY E-MAIL
             </div>
             <div id="fb">

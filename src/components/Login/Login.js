@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./Login.css"
 import "../Footer/Footer.css"
 import "../Navbar/Navbar.css"
@@ -27,6 +28,7 @@ function Login() {
             />
           </div>
           <p class="size6">HAVE YOU FORGOTTEN YOUR PASSWORD?</p>
+         <Link to="/registration"> <h6>Create a zelgry Account</h6></Link>
                       
           <div id="logbttn">
             <button  type="submit">LOG IN</button>

@@ -58,7 +58,7 @@
     height: 2.7em;
     background-color: black;
     color: white;
-    margin-top: 13px;
+    margin-top: -2px;
     cursor: pointer;
     outline: none;
     border: none;
@@ -166,6 +166,9 @@
         font-size: 15px;
     
     }
+    /* #inputEmail::-webkit-input-placeholder {
+        font-weight: bold;
+    } */
     
 
 }
@@ -192,6 +195,7 @@
     width: 200%;
     height: 30px;
 }
+
 
 
 }

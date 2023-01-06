@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./Cart.css"
 function Cart() {
   return (
@@ -16,9 +17,11 @@ function Cart() {
     <div id="card">
       <div>
         <div id="price">TOTAL : <span id="total">0</span></div>
+        <Link to="/payment">
         <button onclick="proceed()">
           CONTINUE
         </button>
+        </Link>
       </div>
     </div>
     </div>
