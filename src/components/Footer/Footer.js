@@ -9,7 +9,7 @@ function Footer() {
             <div class="footer-opt">
               <h4>HELP</h4>
               <ul>
-                  <li><a href="*">SHOP AT Zelgry.COM</a></li>
+                  <li><a href="*">SHOP AT ZELGRY.COM</a></li>
                   <li><a href="*">PRODUCT</a></li>
                   <li><a href="*">PAYMENT</a></li>
                   <li><a href="*">SHIPPING</a></li>

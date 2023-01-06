@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./Sidebar.css"
 function Sidebar() {
   return (
@@ -6,23 +7,23 @@ function Sidebar() {
           <nav class="sidebar">
     <ul>
       <li>
-        <a href="#" class="womensec">women</a>
+        <Link to="/" class="womensec">women</Link>
         <ul class="womensec1">
-          <li><a href="#">STARTING FROM 40%</a></li>
+          <li><Link to="/">STARTING FROM 40%</Link></li>
           <li id="womenJacks">JACKETS | PUFFERS</li>
           <li>
-            <a href="#">BLAZERS | COATS</a>
+            <Link to="/">BLAZERS | COATS</Link>
             <ul>
-              <li><a href="#">DRESSES | JUMPSUITS</a></li>
-              <li><a href="#">SHIRTS</a></li>
-              <li><a href="#">TROUSERS</a></li>
-              <li><a href="#">JEANS</a></li>
-              <li><a href="#">T-SHIRTS</a></li>
-              <li><a href="#">TOPS | BODYSUITS</a></li>
-              <li><a href="#">SKIRTS | SHORTS</a></li>
-              <li><a href="#">KNITWEAR</a></li>
-              <li><a href="#">SHOES</a></li>
-              <li><a href="#">BAGS</a></li>
+              <li><Link to="/">DRESSES | JUMPSUITS</Link></li>
+              <li><Link to="/">SHIRTS</Link></li>
+              <li><Link to="/">TROUSERS</Link></li>
+              <li><Link to="/">JEANS</Link></li>
+              <li><Link to="/">T-SHIRTS</Link></li>
+              <li><Link to="/">TOPS | BODYSUITS</Link></li>
+              <li><Link to="/">SKIRTS | SHORTS</Link></li>
+              <li><Link to="/">KNITWEAR</Link></li>
+              <li><Link to="/">SHOES</Link></li>
+              <li><Link to="/">BAGS</Link></li>
               <li id="womenAcc">ACCESSORIES</li>
             </ul>
           </li>
@@ -32,21 +33,21 @@ function Sidebar() {
 
 
       <li>
-        <a href="#" class="mensec">men</a>
+        <Link to="/" class="mensec">men</Link>
         <ul class="mensec1">
-          <li><a href="#">STARTING FROM -60%</a></li>
-          <li><a href="#">STARTING FROM -40%</a></li>
+          <li><Link to="/">STARTING FROM -60%</Link></li>
+          <li><Link to="/">STARTING FROM -40%</Link></li>
           <li>
-            <a href="#">JACKETS | COATS</a>
+            <Link to="/">JACKETS | COATS</Link>
             <ul>
-              <li><a href="#">OVERSHIRTS</a></li>
+              <li><Link to="/">OVERSHIRTS</Link></li>
               <li id="menShirts">SHIRTS</li>
-              <li><a href="#">T-SHIRTS | SWEATSHIRTS</a></li>
-              <li><a href="#">TROUSERS | JEANS</a></li>
+              <li><Link to="/">T-SHIRTS | SWEATSHIRTS</Link></li>
+              <li><Link to="/">TROUSERS | JEANS</Link></li>
               <li id="menShoes">SHOES</li>
-              <li><a href="#">BAGS | BACKPACKS</a></li>
-              <li><a href="#">ACCESSORIES</a></li>
-              <li id="athleticz">ZARA ATHLETICS</li>
+              <li><Link to="/">BAGS | BACKPACKS</Link></li>
+              <li><Link to="/">ACCESSORIES</Link></li>
+              <li id="athleticz">ZELGRY ATHLETICS</li>
             </ul>
           </li>
         </ul>
@@ -55,11 +56,11 @@ function Sidebar() {
 
 
 
-      <li><a href="#">Kids</a></li>
-      <li><a href="#">SHOES & BAGS</a></li>
-      <li><a href="#">JOIN LIFE</a></li>
+      <li><Link to="/">Kids</Link></li>
+      <li><Link to="/">SHOES & BAGS</Link></li>
+      <li><Link to="/">JOIN LIFE</Link></li>
       <br />
-      <li><a href="#">+ info</a></li>
+      <li><Link to="/">+ info</Link></li>
     </ul>
   </nav>
     </div>
