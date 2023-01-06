@@ -1,15 +1,15 @@
 import React from 'react'
 import "./Footer.css"
 function Footer() {
-  return (
-    
-        <div className="footer" id="footer">
+  return (  
+     <div>
+      <div class="footer" id="footer">
   <div class="container">
-        <div class="options row">
-            <div class="footer-opt col-md-3">
+        <div class="options">
+            <div class="footer-opt">
               <h4>HELP</h4>
               <ul>
-                  <li><a href="*">SHOP AT ZELGRY.COM</a></li>
+                  <li><a href="*">SHOP AT Zelgry.COM</a></li>
                   <li><a href="*">PRODUCT</a></li>
                   <li><a href="*">PAYMENT</a></li>
                   <li><a href="*">SHIPPING</a></li>
@@ -19,7 +19,7 @@ function Footer() {
                   <li><a href="*">MY ACCOUNT</a></li>
               </ul>
             </div>
-            <div class="footer-opt col-md-3">
+            <div class="footer-opt">
               <h4>FOLLOW US</h4>
               <ul>
                   <li><a href="*">NEWSLETTER</a></li>
@@ -31,7 +31,7 @@ function Footer() {
                   <li><a href="*">YOUTUBE</a></li>
               </ul>
             </div>
-            <div class="footer-opt col-md-3">
+            <div class="footer-opt">
               <h4>COMPANY</h4>
               <ul>
                   <li><a href="*">ABOUT US</a></li>
@@ -40,7 +40,7 @@ function Footer() {
                   <li><a href="*">WORK WITH US</a></li>
               </ul>
             </div>
-            <div class="footer-opt col-md-3">
+            <div class="footer-opt">
               <h4>POLICIES</h4>
               <ul>
                   <li><a href="*">PRIVACY POLICY</a></li>
@@ -63,6 +63,8 @@ function Footer() {
        <p id="end">ZELGRY:<br/>INDUSTRIA DE DISEÑO TEXTIL, S.A. (INDITEX, S.A.)<br/>AVENIDA DE LA DIPUTACIÓN, EDIFICIO INDITEX, 15143, ARTEIXO (A CORUÑA), Italy</p>
 </div>
     </div>
+    </div>
+     
   )
 }
 

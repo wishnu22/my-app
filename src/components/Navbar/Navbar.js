@@ -1,30 +1,33 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./Navbar.css"
 function Navbar() {
   return (
     <div className='nav'>
         <img src={require("../../Images/menuLogo.png")} style={{width:"20px",height:"20px"}} className="mt-3"/>
         <div id="logo">
-    <a href="./index.html">
+        <Link to="/">
         <img src={require("../../Images/zelgryLogo.jpeg")} alt="zelgryLogo"/>
-        </a>
+        </Link>
     </div>
     
     <div>
-    <a href="./search.html">
-    <p id="search-input">SEARCH</p></a>
+    <Link to="/Search">
+    <p id="search-input">SEARCH</p></Link>
     </div>
 
     <div id="help">
-    <a href="./login.html"/>
+    <Link to="/login">
         <div >LOGIN</div>
-        <a/>
-        <a href="./zarahelp.html"/>
+        </Link>
+       <Link to="/help">
         <div>HELP</div>
-        <a/>
-        <a href="./zarahelp.html"/>
+        </Link>
+        
+       
+        <Link to="/cart">
         <div>CART</div>
-        <a/>
+        </Link>
     </div>
         
     </div>
