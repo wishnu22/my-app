@@ -1,6 +1,7 @@
+
 *{
     font-family: 'Poppins',sans-serif;
-} 
+}
 
 #logindiv {
     width: 70%;
@@ -40,7 +41,6 @@
     font-size: 8px;
     font-weight: bold;
     margin-top: 10px;
-    font-size: 10px;
 }
 .size p{
     width: 180%;
@@ -108,7 +108,9 @@
     width: 130%;
     height: 30px;
 }
-
+.atag{
+    visibility: hidden;
+}
 @media only screen and (min-width:375px) and (max-width:768px){
    
     #logindiv {
