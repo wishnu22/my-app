@@ -12,7 +12,7 @@ function Help() {
               alt=""
             />
           </div>
-          <p>SHOP AT ZARA.COM</p>
+          <p>SHOP AT ZELGRY.COM</p>
         </div>
         <div onclick="goToproduct()">
           <div>
@@ -26,7 +26,7 @@ function Help() {
         <div>
           <div>
             <img
-              src="https://static.zara.net/photos///mkt/misc/help/icons//icon-80-help-payment.svg?ts=1550654368093"
+              src=""
               alt=""
             />
           </div>
@@ -35,7 +35,7 @@ function Help() {
         <div>
           <div>
             <img
-              src="https://static.zara.net/photos///mkt/misc/help/icons//icon-80-help-shipping.svg?ts=1550654368093"
+              src={require("../../Images/zelgrybag.svg")}
               alt=""
             />
           </div>
