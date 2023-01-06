@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 import "./Heroin.css"
 function Hero() {
   return (
@@ -20,9 +21,9 @@ as a premium luxury brand that offers cutting-edge styles for men, women and kid
 
             </div>
             <div className='col-md-10'>
-           
+           <Link to="/">
         <img src={require("../../Images/hero.jpg")} alt="heroinlogo" className='img-fluid heroin'/>
-        
+        </Link>
         </div>
         <div className='col-md-1 descri'>The men’s collection includes jackets & coats, trousers, sweatshirts, footwear, 
 & more fashion accessories. The women can shop for coats, jackets, blazers, jumpsuits, 

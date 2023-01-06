@@ -8,6 +8,7 @@ import Personaldetails from './components/Personaldetails/Personaldetails';
 import Login from './components/Login/Login';
 import Routing from './components/Routing/Routing';
 
+
 function App() {
   return (
     <div className="App">
@@ -18,7 +19,6 @@ function App() {
     {/* <Login/> */}
     <Routing/>
     <Footer/>
-    
     </div>
   );
 }

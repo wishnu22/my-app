@@ -4,7 +4,9 @@ import "./Navbar.css"
 function Navbar() {
   return (
     <div className='nav'>
+      <Link to="/menu">
     <img src={require("../../Images/menuLogo.png")} style={{width:"20px",height:"20px"}} className="mt-3"/>
+    </Link>
     <div id="logo">
     <Link to="/">
     <img src={require("../../Images/zelgryLogo.jpeg")} alt="zelgryLogo"/>
